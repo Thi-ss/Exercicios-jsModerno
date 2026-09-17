@@ -1,4 +1,6 @@
 const calcularDesconto = (preco, desconto) =>{
     let calculo = preco * desconto/100;
-    console.log(`${calculo} de desconto`);
+    let final = preco - calculo
+    console.log(`O preço final é ${final}`);
 }
+calcularDesconto(200, 20);
